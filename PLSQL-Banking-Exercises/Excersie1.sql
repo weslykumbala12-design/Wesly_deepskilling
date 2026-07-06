@@ -1,4 +1,4 @@
-```sql
+
 SET SERVEROUTPUT ON;
 
 -- Scenario 1
