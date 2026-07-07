@@ -1,0 +1,9 @@
+com\example\demo\UserServiceTest.class
+com\example\demo\UserIntegrationTest.class
+com\example\demo\CalculatorParameterizedTest.class
+com\example\demo\UserRepositoryTest.class
+com\example\demo\UserServiceExceptionTest.class
+com\example\demo\ControllerExceptionTest.class
+com\example\demo\UserControllerTest.class
+com\example\demo\CalculatorServiceTest.class
+com\example\demo\UserControllerPostTest.class
