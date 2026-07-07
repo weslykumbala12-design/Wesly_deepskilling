@@ -1,0 +1,9 @@
+NetworkService.class
+RestClient.class
+ApiService.class
+FileWriter.class
+FileService.class
+Repository.class
+NetworkClient.class
+Service.class
+FileReader.class
