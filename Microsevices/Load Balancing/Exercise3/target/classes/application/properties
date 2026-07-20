@@ -1,0 +1,7 @@
+spring.application.name=gateway-resilience
+
+server.port=8080
+
+resilience4j.circuitbreaker.instances.exampleCircuitBreaker.register-health-indicator=true
+resilience4j.circuitbreaker.instances.exampleCircuitBreaker.sliding-window-size=10
+resilience4j.circuitbreaker.instances.exampleCircuitBreaker.failure-rate-threshold=50
