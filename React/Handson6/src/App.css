@@ -1,0 +1,33 @@
+.container{
+    width:80%;
+    margin:auto;
+    font-family:Arial;
+}
+
+nav{
+    margin:20px 0;
+}
+
+nav a{
+    margin-right:20px;
+    text-decoration:none;
+    color:blue;
+    font-weight:bold;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+}
+
+li{
+    margin:10px 0;
+}
+
+a{
+    text-decoration:none;
+}
+
+a:hover{
+    color:red;
+}
