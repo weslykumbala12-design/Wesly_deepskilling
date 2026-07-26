@@ -1,0 +1,59 @@
+<h2>Available Courses</h2>
+
+<button (click)="addCourse()">
+Add Course
+</button>
+
+<button (click)="updateCourse()">
+Update Course
+</button>
+
+<br><br>
+
+<div *ngIf="isLoading">
+
+Loading...
+
+</div>
+
+<div *ngIf="errorMessage">
+
+{{errorMessage}}
+
+</div>
+
+<table border="1">
+
+<tr>
+
+<th>ID</th>
+
+<th>Title</th>
+
+<th>Credits</th>
+
+<th>Action</th>
+
+</tr>
+
+<tr *ngFor="let c of courses">
+
+<td>{{c.id}}</td>
+
+<td>{{c.title}}</td>
+
+<td>{{c.credits}}</td>
+
+<td>
+
+<button (click)="deleteCourse(c.id)">
+
+Delete
+
+</button>
+
+</td>
+
+</tr>
+
+</table>

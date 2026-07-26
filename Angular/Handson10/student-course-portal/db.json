@@ -1,0 +1,43 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Angular",
+      "credits": 4
+    },
+    {
+      "id": 2,
+      "title": "React",
+      "credits": 3
+    },
+    {
+      "id": 3,
+      "title": "Spring Boot",
+      "credits": 5
+    }
+  ],
+
+  "students": [
+    {
+      "id": 1,
+      "name": "John"
+    },
+    {
+      "id": 2,
+      "name": "David"
+    }
+  ],
+
+  "enrollments": [
+    {
+      "id": 1,
+      "courseId": 1,
+      "studentId": 1
+    },
+    {
+      "id": 2,
+      "courseId": 2,
+      "studentId": 2
+    }
+  ]
+}
