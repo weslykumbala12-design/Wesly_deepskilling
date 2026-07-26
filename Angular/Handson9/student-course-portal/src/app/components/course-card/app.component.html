@@ -1,0 +1,7 @@
+<h1>Student Management System</h1>
+
+<div *ngIf="loadingService.isLoading$ | async" class="loading">
+  Loading...
+</div>
+
+<router-outlet></router-outlet>
