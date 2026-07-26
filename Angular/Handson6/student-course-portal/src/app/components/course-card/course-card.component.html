@@ -1,0 +1,46 @@
+<div class="card">
+
+  <h2>{{course.name}}</h2>
+
+  <p><b>Course Code:</b> {{course.code}}</p>
+
+  <p><b>Credits:</b> {{course.credits}}</p>
+
+  <p>
+
+    <b>Status:</b>
+
+    <span
+      [style.color]="
+        course.gradeStatus=='passed'
+        ? 'green'
+        : course.gradeStatus=='failed'
+        ? 'red'
+        : 'orange'
+      ">
+
+      {{course.gradeStatus}}
+
+    </span>
+
+  </p>
+
+  <button (click)="toggleEnrollment()">
+
+    {{
+
+      enrollmentService.isEnrolled(course.id)
+
+      ?
+
+      'Unenroll'
+
+      :
+
+      'Enroll'
+
+    }}
+
+  </button>
+
+</div>
